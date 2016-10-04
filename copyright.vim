@@ -27,7 +27,7 @@ function UpdateTitle()
     execute '/* Filename\s*:/s@:.*$@\=": ".expand("%:t")@'
     execute "noh"
     normal 'k
-    echohl WarningMsg | echo "Successful in updating the copyright." |echohl None
+    echohl WarningMsg | echo "Successful in updating the copyright." | echohl None
 endfunction
 
 function AddTitleForC()
